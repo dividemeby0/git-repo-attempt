@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css"/>
+  <title>Tables</title>
+</head>
+<body>
+  <table class="table">
+    <tr>
+      <td>As</td>
+      <td>Trèfle</td>
+    </tr>
+    <tr>
+      <td>Carreaux</td>
+      <td>Coeur</td>
+    </tr>
+  </table>
+  <br>
+  <table class="second-table">
+    <thead>
+      <tr>
+        <th colspan="2"></th>
+        <th colspan="2">Premier groupe</th>
+        <th colspan="2">Deuxième groupe</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="titre">
+        <td></td>
+        <td>Personne</td>
+        <td>Singulier</td>
+        <td>Pluriel</td>
+        <td>Singulier</td>
+        <td>Pluriel</td>
+      </tr>
+      <tr>
+        <td rowspan="3">présent</td>
+        <td>1</td>
+        <td>je code</td>
+        <td>vous codez</td>
+        <td>je réussis</td>
+        <td>nous réussissons</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>tu codes</td>
+        <td>vous codez</td>
+        <td>tu réussis</td>
+        <td>vous réussissez</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>il/elle code</td>
+        <td>ils/elles codent</td>
+        <td>il/elle réussit</td>
+        <td>ils/elles réussissent</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <div>
+  <h2>Liste ordonnée</h2>
+    <ol>
+      <li>Démarrer son navigateur</li>
+      <li>Ouvrir la console</li>
+      <li>Coder !</li>
+    </ol>
+  <h2>Liste imbriquée</h2>
+    <ol>
+      <li>élément de niveau 1 1 </li>
+      <li>élément de niveau 1 2
+        <ul>
+          <li>premier sous-élément du deuxième élément numéroté
+            <ol>
+              <li>Ajoutons-y une sous-liste</li>
+              <li>Elle est numérotée</li>
+              <li>C'est toujours ok?</li>
+            </ol></li>
+          <li>deuxième sous-élément du deuxième élément numéroté</li>
+          <li>troisième sous-élément du deuxième élément numéroté</li>
+        </ul></li>
+      <li>élément de niveau 1 1</li>
+    </ol>
+  </div>
+</body>
+</html>

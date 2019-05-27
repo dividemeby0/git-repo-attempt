@@ -1,0 +1,14 @@
+.table, .table td, .table th {
+  border: 2px solid;
+  text-align: center;
+}
+
+.second-table, .second-table td, .second-table th {
+  border: 2px solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.titre {
+  font-weight: bold;
+}
